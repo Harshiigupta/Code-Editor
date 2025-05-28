@@ -1,0 +1,9 @@
+.terminal-box {
+    background-color: #000;
+    color: #0f0;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    font-family: monospace;
+    border-radius: 5px;
+}
