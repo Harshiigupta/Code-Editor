@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: code-editor
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app.main:app"
+    plan: free
